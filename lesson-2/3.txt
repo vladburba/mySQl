@@ -1,0 +1,4 @@
+vlad@vlad-virtual-machine:~$ mysqldump example > example.sql
+vlad@vlad-virtual-machine:~$ mysql -e 'CREATE DATABASE sample'
+vlad@vlad-virtual-machine:~$ mysql sample < example.sql
+
