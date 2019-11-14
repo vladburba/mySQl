@@ -1,4 +1,4 @@
-vlad@vlad-virtual-machine:~$ cat .my.cnf
+﻿vlad@vlad-virtual-machine:~$ cat .my.cnf
 [client]
 user=root
 password=**************
