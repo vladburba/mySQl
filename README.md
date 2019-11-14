@@ -1,2 +1,2 @@
 # MySQL
-DB MySQL basic course.
+MySQL DB basic course.
