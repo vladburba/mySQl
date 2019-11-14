@@ -1,2 +1,2 @@
 # MySQL
-Базы данных. Интерактивный курс.
+DB MySQL basic course.
