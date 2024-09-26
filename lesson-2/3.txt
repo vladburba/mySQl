@@ -1,0 +1,22 @@
+vlad@vlad-virtual-machine:~$ mysqldump example > example.sql
+vlad@vlad-virtual-machine:~$ mysql -e 'CREATE DATABASE sample'
+vlad@vlad-virtual-machine:~$ mysql sample < example.sql
+mysql> show tables;
++------------------+
+| Tables_in_sample |
++------------------+
+| users            |
++------------------+
+1 row in set (0,00 sec)
+
+mysql> describe users;
++-------+------------------+------+-----+---------+-------+
+| Field | Type             | Null | Key | Default | Extra |
++-------+------------------+------+-----+---------+-------+
+| id    | int(10) unsigned | YES  |     | NULL    |       |
+| name  | varchar(255)     | YES  |     | NULL    |       |
++-------+------------------+------+-----+---------+-------+
+2 rows in set (0,00 sec)
+
+mysql>
+

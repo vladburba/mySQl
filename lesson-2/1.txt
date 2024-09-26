@@ -1,0 +1,5 @@
+﻿vlad@vlad-virtual-machine:~$ cat .my.cnf
+[client]
+user=root
+password=**************
+vlad@vlad-virtual-machine:~$
